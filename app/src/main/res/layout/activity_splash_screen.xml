@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.splashscreen.SplashScreenActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/logo_app"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/content_logo_dicoding_story_application"
+        tools:src="@drawable/dicoding_story_app_no_background" />
+
+    <TextView
+        android:id="@+id/tv_powered_by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_app"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/powered_by" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/tv_powered_by"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/iv_dicoding_logo"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/content_logo_dicoding"
+            android:padding="12dp"
+            tools:src="@drawable/dicoding_logo" />
+
+        <ImageView
+            android:id="@+id/iv_bangkit_logo"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/content_logo_bangkit"
+            app:layout_constraintStart_toEndOf="@id/iv_dicoding_logo"
+            tools:src="@drawable/bangkit_logo" />
+
+        <ImageView
+            android:id="@+id/iv_kampus_merdeka_logo"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/content_logo_kampus_merdeka"
+            app:layout_constraintStart_toEndOf="@id/iv_dicoding_logo"
+            tools:src="@drawable/kampus_merdeka" />
+    </LinearLayout>
+</RelativeLayout>

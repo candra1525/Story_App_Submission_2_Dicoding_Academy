@@ -1,0 +1,20 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DicodingStoryApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:fontFamily">@font/quicksand_medium</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:actionBarStyle">@color/black</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="colorPrimary">@color/navy</item>
+    </style>
+
+    <style name="Theme.DicodingStoryApplication" parent="Base.Theme.DicodingStoryApplication" />
+
+    <!-- Switch Mode -->
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+        <!-- Active Switch -->
+        <item name="colorControlActivated">@color/navy</item>
+        <item name="colorSwitchThumbNormal">@color/inactive</item>
+        <item name="android:colorForeground">@color/transparent</item>
+    </style>
+</resources>

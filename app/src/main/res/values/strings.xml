@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Dicoding Story Application</string>
+    <string name="settings">Settings</string>
+
+    <!-- Home -->
+    <string name="welcome">Welcome to Dicoding Story App !</string>
+    <string name="sambutan_hangat">Let\'s share and discover stories about the world of IT regarding <b>Android, iOS, Machine Learning, Cloud Computing, Front-End Developer, Back-End Developer</b> and other IT fields with <b>Dicoding Indonesia</b>. \n\nHappy reading and sharing stories.😁</string>
+    <string name="hellouser">Hello, %1$s</string>
+    <string name="greetings">Have a nice day !</string>
+
+    <!-- Field Form -->
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="password_confirmation">Confirm password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+
+    <!-- About -->
+    <string name="about_app">About App</string>
+    <string name="about_app_description">Description App</string>
+    <string name="about_dev">About Developer</string>
+    <string name="about_dev_description">Hello Everyone,
+        \nIntroduce my self, my name is Candra. I\'am a student at <b>Multi Data Palembang University</b>  from Faculty of Computer Science and Enginnering, Informatics.\n\nCurrently, I\'am at 5th semester and following <b>Bangkit Academy led by Google, Tokopedia, Gojek, &amp; Traveloka - Mobile Development (Android)</b> program. I learn using an interactive learning platform, namely <b>Dicoding Indonesia</b>.
+        \n\n<b>Thank You</b></string>
+    <string name="about_dev_name">Candra</string>
+    <string name="about_dev_email">candraandi2003@gmail.com</string>
+    <string name="about_dev_linked_in">LinkedIn</string>
+    <string name="about_dev_instagram">Instagram</string>
+    <string name="about_app_title">About\nApplication</string>
+    <string name="about_dev_title">About\nDeveloper</string>
+    <string name="about_app_text"><b>Dicoding Story Application</b> is an application used to share stories and read stories about the world of IT regarding <b>Android, iOS, Machine Learning, Cloud Computing, Front-End Developer, Back-End Developer</b> and other IT fields.</string>
+
+    <!-- Powered By -->
+    <string name="powered_by">Powered By</string>
+    <string name="dicoding">Dicoding Indonesia</string>
+    <string name="bangkit">Bangkit Academy</string>
+    <string name="kampus_merdeka">Kampus Merdeka</string>
+
+    <!-- Offline -->
+    <string name="offline">You\'re Offline</string>
+    <string name="offline_information">Uhmm, you\'re offline\nPlease check your internet connection</string>
+    <string name="problem_occur">Problems occur. It seems you are offline</string>
+    <string name="text_offline">It looks like you are offline.\Please swipe down to update the page.</string>
+
+    <!-- Mode -->
+    <string name="mode">Mode</string>
+    <string name="light_mode">Light Mode</string>
+    <string name="night_mode">Night Mode</string>
+
+    <!-- Hint -->
+    <string name="emailHint">Email Address</string>
+    <string name="passwordHint">Password</string>
+    <string name="nameHint">Your Name</string>
+
+
+    <!-- Content Description -->
+    <string name="content_description_name">Please enter your name here</string>
+    <string name="content_description_email">Please enter your email here</string>
+    <string name="content_description_password">Please enter your password here</string>
+    <string name="content_description_password_confirmation">Please enter your confirmation password here</string>
+    <string name="content_camera_button">Camera Button</string>
+    <string name="content_gallery_button">Gallery Button</string>
+    <string name="content_logo_dicoding_story_application">Dicoding Story Application Logo</string>
+    <string name="content_logo_dicoding">Dicoding Logo</string>
+    <string name="content_logo_bangkit">Bangkit Logo</string>
+    <string name="content_logo_kampus_merdeka"> Kampus Merdeka Logo</string>
+    <string name="content_profile_developer">Profile Developer</string>
+    <string name="content_preview_image">Preview Image</string>
+    <string name="content_image_home">Image Home</string>
+    <string name="content_button_add_story">Button Add Story</string>
+    <string name="content_button_about_app">Button About App</string>
+    <string name="content_button_about_developer">Button About Developer</string>
+    <string name="content_button_language">Button Language</string>
+    <string name="content_button_mode">Button Mode</string>
+    <string name="content_button_logout">Button Logout</string>
+    <string name="content_image_story">Image Story</string>
+    <string name="content_image_login">Image Login</string>
+    <string name="content_button_started">Button Started</string>
+    <string name="content_image_register">Image Register</string>
+    <string name="content_image_offline">Image Offline</string>
+
+    <!-- Other -->
+    <string name="logout">Logout</string>
+    <string name="question_logout">Are you sure you want to log out?</string>
+    <string name="language">Language</string>
+    <string name="description">Description</string>
+    <string name="created_at">Created At</string>
+    <string name="image_story">Image Story</string>
+    <string name="add_story_title">Add Story</string>
+    <string name="preview_image_text">Preview Image</string>
+    <string name="camera_text">Camera</string>
+    <string name="gallery_text">Gallery</string>
+    <string name="hint_description_story">Description Story</string>
+    <string name="upload_text">Upload</string>
+    <string name="title_story">Title Story</string>
+    <string name="hello">Hello,\nStory Lovers</string>
+    <string name="no_account">You don\'t have an account yet ?</string>
+    <string name="no_account_to_register">Calm down, let\'s <b>register</b> straight away</string>
+    <string name="text_pastikan_data">Make sure the data you enter is correct!</string>
+    <string name="text_yuk_login">Come on, Login!</string>
+    <string name="text_pastikan_data_register">Make sure the data you register in the column below is correct!</string>
+    <string name="text_yuk_register">Come on, Register!</string>
+    <string name="text_back_to_login">Back to Login</string>
+    <string name="story_success_upload">Yeah, you have successfully uploaded your Story!</string>
+    <string name="permission_ok">Permission request granted</string>
+    <string name="permission_denied">Permission request denied</string>
+    <string name="password_warning">Password must not be less than 8 characters!</string>
+    <string name="cancel">Cancel</string>
+    <string name="name_empty">Name field is empty</string>
+    <string name="name_empty_text">Please fill in the Name field first!</string>
+    <string name="email_empty">Email field is empty</string>
+    <string name="email_empty_text">Please fill in the Email field first!</string>
+    <string name="password_empty">Password field is empty</string>
+    <string name="password_empty_text">Please fill in the Password field first!</string>
+    <string name="konfirmasi_password_empty">Confirm Password field is empty</string>
+    <string name="konfirmasi_password_text">Please fill in the Confirm Password field first!</string>
+    <string name="konfirmasi_password_not_same">Password and confirm password are not the same</string>
+    <string name="konfirmasi_password_not_same_text">Please correct your password or confirm your password first!</string>
+
+    <!-- Information -->
+    <string name="register_success">Register Success</string>
+    <string name="register_fail">Register Failed</string>
+    <string name="login_success">Login Success</string>
+    <string name="login_fail">Login Failed</string>
+    <string name="logout_success">Logout Success</string>
+    <string name="email_invalid">Invalid Email</string>
+    <string name="upload_success">Upload Success</string>
+    <string name="upload_fail">Upload Failed</string>
+    <string name="logout_success_text">You have successfully logged out</string>
+    <string name="login_success_text">Yeah, You have successfully logged in!</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="retry">Retry</string>
+    <string name="timeout">Time Out</string>
+    <string name="add_location">Add your location</string>
+    <string name="lat_long"><![CDATA[Latitude & Longitude]]></string>
+    <string name="location_unknown">Location unknown</string>
+    <string name="data_update">Data updated successfully !</string>
+    <string name="maps">Location Maps</string>
+    <string name="my_location">My Location</string>
+    <string name="location_desc">This is my location now !</string>
+    <string name="default_location_name">Dicoding Space</string>
+    <string name="default_location_address">Batik Kumeli No.50</string>
+    <string name="error_parsing_style">Style Parsing failed !</string>
+    <string name="cant_find_style">Can\'t find style. Error :</string>
+</resources>

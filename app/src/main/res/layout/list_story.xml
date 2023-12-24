@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    android:background="@drawable/rounded_4_side"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/iv_item_photo"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:contentDescription="@string/image_story"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tv_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/name"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_item_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:maxLines="1"
+        android:text="@string/description"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_item_created_at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"
+        android:maxLines="1"
+        android:text="@string/created_at"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_item_lat_long"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="8dp"
+        android:maxLines="1"
+        android:drawableStart="@drawable/location_24"
+        android:text="@string/lat_long"
+        android:drawablePadding="4dp"
+        android:textSize="12sp" />
+
+</LinearLayout>
